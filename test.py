@@ -41,5 +41,3 @@ if response.status_code == 200:
         output= output + f"\n {author}: {message}"
 else:
     print("Error:", response.status_code, response.text)
-
-print(output)
